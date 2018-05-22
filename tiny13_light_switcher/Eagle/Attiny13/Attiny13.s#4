@@ -3002,8 +3002,8 @@ Source: www.kingbright.com</description>
 <sheets>
 <sheet>
 <plain>
-<text x="162.56" y="17.78" size="3.81" layer="94" font="vector">Tiny13/45/85</text>
-<text x="162.56" y="10.16" size="3.81" layer="94" font="vector">Resetter</text>
+<text x="162.56" y="17.78" size="3.81" layer="94" font="vector">Tiny13</text>
+<text x="162.56" y="10.16" size="3.81" layer="94" font="vector">LED switcher</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="0" y="0"/>
