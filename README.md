@@ -1,5 +1,5 @@
 # Attiny13 
-<img align="right" src="./aqua_logo.png" />
+<img align="right" src="./tiny13_logo.png" />
 
 This project is software and hardware resources to support my hobby. 
 
