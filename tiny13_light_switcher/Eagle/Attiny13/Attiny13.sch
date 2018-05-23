@@ -6147,11 +6147,11 @@ diameter 3 mm, horizontal, grid 12.7 mm</description>
 <part name="GND13" library="pwr" deviceset="GND" device=""/>
 <part name="VCC4" library="pwr" deviceset="VCC" device=""/>
 <part name="LED1" library="led" deviceset="LED" device="3MM" value="RED"/>
-<part name="LED3" library="led" deviceset="LED" device="3MM" value="RED"/>
-<part name="LED4" library="led" deviceset="LED" device="3MM" value="RED"/>
-<part name="LED5" library="led" deviceset="LED" device="3MM" value="RED"/>
 <part name="LED6" library="led" deviceset="LED" device="3MM" value="RED"/>
-<part name="LED7" library="led" deviceset="LED" device="3MM" value="RED"/>
+<part name="LED4" library="led" deviceset="LED" device="3MM" value="RED"/>
+<part name="LED3" library="led" deviceset="LED" device="3MM" value="RED"/>
+<part name="LED5" library="led" deviceset="LED" device="3MM" value="RED"/>
+<part name="LED2" library="led" deviceset="LED" device="3MM" value="RED"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="USB_A" device="_SMT_MALE"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="U2" library="atmel" deviceset="TINY13*" device="8P3" value="ATTiny85"/>
@@ -6215,11 +6215,11 @@ diameter 3 mm, horizontal, grid 12.7 mm</description>
 <instance part="GND13" gate="1" x="119.38" y="27.94"/>
 <instance part="VCC4" gate="VCC" x="119.38" y="106.68"/>
 <instance part="LED1" gate="G$1" x="149.86" y="86.36"/>
-<instance part="LED3" gate="G$1" x="160.02" y="86.36"/>
+<instance part="LED6" gate="G$1" x="160.02" y="86.36"/>
 <instance part="LED4" gate="G$1" x="187.96" y="86.36"/>
-<instance part="LED5" gate="G$1" x="198.12" y="86.36"/>
-<instance part="LED6" gate="G$1" x="231.14" y="86.36"/>
-<instance part="LED7" gate="G$1" x="241.3" y="86.36"/>
+<instance part="LED3" gate="G$1" x="198.12" y="86.36"/>
+<instance part="LED5" gate="G$1" x="231.14" y="86.36"/>
+<instance part="LED2" gate="G$1" x="241.3" y="86.36"/>
 <instance part="J1" gate="G$1" x="53.34" y="152.4" rot="R90"/>
 <instance part="SUPPLY1" gate="GND" x="71.12" y="144.78" rot="R90"/>
 <instance part="U2" gate="G$1" x="68.58" y="83.82" rot="R180"/>
@@ -6403,7 +6403,7 @@ diameter 3 mm, horizontal, grid 12.7 mm</description>
 <wire x1="149.86" y1="104.14" x2="149.86" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="104.14" x2="160.02" y2="104.14" width="0.1524" layer="91"/>
 <junction x="149.86" y="104.14"/>
-<pinref part="LED3" gate="G$1" pin="A"/>
+<pinref part="LED6" gate="G$1" pin="A"/>
 <wire x1="160.02" y1="104.14" x2="160.02" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="104.14" x2="187.96" y2="104.14" width="0.1524" layer="91"/>
 <junction x="160.02" y="104.14"/>
@@ -6411,15 +6411,15 @@ diameter 3 mm, horizontal, grid 12.7 mm</description>
 <wire x1="187.96" y1="104.14" x2="187.96" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="104.14" x2="198.12" y2="104.14" width="0.1524" layer="91"/>
 <junction x="187.96" y="104.14"/>
-<pinref part="LED5" gate="G$1" pin="A"/>
+<pinref part="LED3" gate="G$1" pin="A"/>
 <wire x1="198.12" y1="104.14" x2="198.12" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="104.14" x2="231.14" y2="104.14" width="0.1524" layer="91"/>
 <junction x="198.12" y="104.14"/>
-<pinref part="LED6" gate="G$1" pin="A"/>
+<pinref part="LED5" gate="G$1" pin="A"/>
 <wire x1="231.14" y1="104.14" x2="231.14" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="104.14" x2="241.3" y2="104.14" width="0.1524" layer="91"/>
 <junction x="231.14" y="104.14"/>
-<pinref part="LED7" gate="G$1" pin="A"/>
+<pinref part="LED2" gate="G$1" pin="A"/>
 <wire x1="241.3" y1="104.14" x2="241.3" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -6470,7 +6470,7 @@ diameter 3 mm, horizontal, grid 12.7 mm</description>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="LED3" gate="G$1" pin="C"/>
+<pinref part="LED6" gate="G$1" pin="C"/>
 <wire x1="160.02" y1="81.28" x2="160.02" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="Q6" gate="G$1" pin="D"/>
 <wire x1="160.02" y1="73.66" x2="160.02" y2="58.42" width="0.1524" layer="91"/>
@@ -6486,7 +6486,7 @@ diameter 3 mm, horizontal, grid 12.7 mm</description>
 <pinref part="LED4" gate="G$1" pin="C"/>
 <wire x1="187.96" y1="81.28" x2="187.96" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="73.66" x2="198.12" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="LED5" gate="G$1" pin="C"/>
+<pinref part="LED3" gate="G$1" pin="C"/>
 <wire x1="198.12" y1="73.66" x2="198.12" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="73.66" x2="198.12" y2="58.42" width="0.1524" layer="91"/>
 <junction x="198.12" y="73.66"/>
@@ -6496,12 +6496,12 @@ diameter 3 mm, horizontal, grid 12.7 mm</description>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="LED7" gate="G$1" pin="C"/>
+<pinref part="LED2" gate="G$1" pin="C"/>
 <wire x1="241.3" y1="81.28" x2="241.3" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="Q4" gate="G$1" pin="D"/>
 <wire x1="241.3" y1="73.66" x2="241.3" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="60.96" x2="233.68" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="LED6" gate="G$1" pin="C"/>
+<pinref part="LED5" gate="G$1" pin="C"/>
 <wire x1="231.14" y1="81.28" x2="231.14" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="73.66" x2="241.3" y2="73.66" width="0.1524" layer="91"/>
 <junction x="241.3" y="73.66"/>

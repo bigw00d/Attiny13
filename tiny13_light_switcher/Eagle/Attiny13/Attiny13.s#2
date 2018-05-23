@@ -6184,8 +6184,8 @@ diameter 3 mm, horizontal, grid 12.7 mm</description>
 <part name="JP6" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" value="VSEL"/>
 <part name="JP7" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="" value="Regulator"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="WR02_L" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X8" device=""/>
-<part name="WR02_R" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X8" device=""/>
+<part name="WR02_L" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X8" device="" value="WR02_L"/>
+<part name="WR02_R" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X8" device="" value="WR02_R"/>
 </parts>
 <sheets>
 <sheet>

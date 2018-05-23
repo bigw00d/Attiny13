@@ -6729,12 +6729,11 @@ diameter 3 mm, horizontal, grid 12.7 mm</description>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="PB2(SCK/ADC1/T0/PCINT2)"/>
-<wire x1="30.48" y1="81.28" x2="30.48" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="ESDV_L" gate="G$1" pin="7"/>
-<wire x1="30.48" y1="78.74" x2="20.32" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="WR02_L" gate="A" pin="7"/>
 <wire x1="20.32" y1="78.74" x2="10.16" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="PB2(SCK/ADC1/T0/PCINT2)"/>
+<wire x1="20.32" y1="78.74" x2="30.48" y2="81.28" width="0.1524" layer="91"/>
 <junction x="20.32" y="78.74"/>
 </segment>
 </net>

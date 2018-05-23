@@ -6165,8 +6165,8 @@ diameter 3 mm, horizontal, grid 12.7 mm</description>
 <part name="LED8" library="adafruit" deviceset="LED" device="SFH480" value="PRG_LED"/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R5" library="MyLib" deviceset="R" device="0.125W_3P"/>
-<part name="LED9" library="adafruit" deviceset="LED" device="SFH480"/>
+<part name="R5" library="MyLib" deviceset="R" device="0.125W_3P" value="R_PWR_LED"/>
+<part name="LED9" library="adafruit" deviceset="LED" device="SFH480" value="PWR_LED"/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R6" library="MyLib" deviceset="R" device="0.125W_3P"/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>

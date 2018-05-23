@@ -6240,7 +6240,7 @@ diameter 3 mm, horizontal, grid 12.7 mm</description>
 <instance part="SUPPLY6" gate="GND" x="38.1" y="53.34" rot="R270"/>
 <instance part="P+4" gate="1" x="20.32" y="50.8"/>
 <instance part="ESDV_R" gate="G$1" x="91.44" y="63.5"/>
-<instance part="ESDV_L" gate="G$1" x="20.32" y="83.82"/>
+<instance part="ESDV_L" gate="G$1" x="22.86" y="83.82"/>
 <instance part="SUPPLY7" gate="GND" x="101.6" y="50.8"/>
 <instance part="C2" gate="G$1" x="86.36" y="139.7" rot="R90"/>
 <instance part="P+5" gate="1" x="91.44" y="152.4"/>
@@ -6331,7 +6331,7 @@ diameter 3 mm, horizontal, grid 12.7 mm</description>
 <junction x="27.94" y="63.5"/>
 <wire x1="12.7" y1="63.5" x2="12.7" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="ESDV_L" gate="G$1" pin="9"/>
-<wire x1="12.7" y1="73.66" x2="17.78" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="73.66" x2="20.32" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="ESDV_R" gate="G$1" pin="9"/>
@@ -6529,18 +6529,16 @@ diameter 3 mm, horizontal, grid 12.7 mm</description>
 <junction x="91.44" y="144.78"/>
 </segment>
 <segment>
-<wire x1="12.7" y1="43.18" x2="15.24" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="P+4" gate="1" pin="+5V"/>
-<wire x1="15.24" y1="43.18" x2="20.32" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="43.18" x2="20.32" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="48.26" x2="20.32" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="43.18" x2="20.32" y2="40.64" width="0.1524" layer="91"/>
 <junction x="20.32" y="43.18"/>
 <pinref part="JP6" gate="A" pin="2"/>
 <wire x1="20.32" y1="40.64" x2="27.94" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="ESDV_L" gate="G$1" pin="10"/>
-<wire x1="17.78" y1="71.12" x2="10.16" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="71.12" x2="10.16" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="71.12" x2="10.16" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="43.18" x2="12.7" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+1" gate="1" pin="+5V"/>
@@ -6614,10 +6612,10 @@ diameter 3 mm, horizontal, grid 12.7 mm</description>
 <junction x="27.94" y="83.82"/>
 <wire x1="25.4" y1="83.82" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="ESDV_L" gate="G$1" pin="6"/>
-<wire x1="25.4" y1="81.28" x2="17.78" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="81.28" x2="20.32" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="JP4" gate="A" pin="6"/>
-<wire x1="17.78" y1="81.28" x2="10.16" y2="81.28" width="0.1524" layer="91"/>
-<junction x="17.78" y="81.28"/>
+<wire x1="20.32" y1="81.28" x2="10.16" y2="81.28" width="0.1524" layer="91"/>
+<junction x="20.32" y="81.28"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -6721,14 +6719,12 @@ diameter 3 mm, horizontal, grid 12.7 mm</description>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="PB0(MOSI/AIN0/OC0A/PCINT0)"/>
-<wire x1="30.48" y1="86.36" x2="22.86" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="86.36" x2="22.86" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="ESDV_L" gate="G$1" pin="5"/>
-<wire x1="22.86" y1="83.82" x2="17.78" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="JP4" gate="A" pin="5"/>
-<wire x1="17.78" y1="83.82" x2="10.16" y2="83.82" width="0.1524" layer="91"/>
-<junction x="17.78" y="83.82"/>
+<wire x1="20.32" y1="83.82" x2="10.16" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="PB0(MOSI/AIN0/OC0A/PCINT0)"/>
+<wire x1="20.32" y1="83.82" x2="30.48" y2="86.36" width="0.1524" layer="91"/>
+<junction x="20.32" y="83.82"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -6736,38 +6732,38 @@ diameter 3 mm, horizontal, grid 12.7 mm</description>
 <pinref part="U2" gate="G$1" pin="PB2(SCK/ADC1/T0/PCINT2)"/>
 <wire x1="30.48" y1="81.28" x2="30.48" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="ESDV_L" gate="G$1" pin="7"/>
-<wire x1="30.48" y1="78.74" x2="17.78" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="78.74" x2="20.32" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="JP4" gate="A" pin="7"/>
-<wire x1="17.78" y1="78.74" x2="10.16" y2="78.74" width="0.1524" layer="91"/>
-<junction x="17.78" y="78.74"/>
+<wire x1="20.32" y1="78.74" x2="10.16" y2="78.74" width="0.1524" layer="91"/>
+<junction x="20.32" y="78.74"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
 <pinref part="JP4" gate="A" pin="2"/>
 <pinref part="ESDV_L" gate="G$1" pin="2"/>
-<wire x1="10.16" y1="91.44" x2="17.78" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="91.44" x2="20.32" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
 <pinref part="JP4" gate="A" pin="3"/>
 <pinref part="ESDV_L" gate="G$1" pin="3"/>
-<wire x1="10.16" y1="88.9" x2="17.78" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="88.9" x2="20.32" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
 <pinref part="JP4" gate="A" pin="4"/>
 <pinref part="ESDV_L" gate="G$1" pin="4"/>
-<wire x1="10.16" y1="86.36" x2="17.78" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="86.36" x2="20.32" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$24" class="0">
 <segment>
 <pinref part="JP4" gate="A" pin="8"/>
 <pinref part="ESDV_L" gate="G$1" pin="8"/>
-<wire x1="10.16" y1="76.2" x2="17.78" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="76.2" x2="20.32" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$25" class="0">
