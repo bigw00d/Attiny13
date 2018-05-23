@@ -352,6 +352,8 @@ UsedLibrary="C:/EAGLE 8.2.2/lbr/SparkFun-Connectors.lbr"
 UsedLibrary="C:/EAGLE 8.2.2/lbr/SparkFun-Electromechanical.lbr"
 UsedLibrary="C:/EAGLE 8.2.2/lbr/SparkFun-Resistors.lbr"
 UsedLibrary="C:/EAGLE 8.2.2/lbr/esp8266.lbr"
+UsedLibrary="C:/WorkSpace/Eagle/MyLibrary/ArduinoNanoV30.lbr"
+UsedLibrary="C:/WorkSpace/Eagle/MyLibrary/KA78R33CTU.lbr"
 UsedLibrary="C:/WorkSpace/Eagle/MyLibrary/MyParts.lbr"
 UsedLibrary="C:/WorkSpace/Eagle/MyLibrary/SparkFun-Boards.lbr"
 UsedLibrary="C:/WorkSpace/Eagle/MyLibrary/SparkFun-Connectors.lbr"
@@ -370,5 +372,5 @@ State=1
 Number=0
 
 [Desktop]
-Screen="1600 1860"
+Screen="1600 900"
 Window="Win_1"
