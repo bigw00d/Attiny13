@@ -684,7 +684,7 @@ design rules under a new name.</description>
 <param name="Efforts" value="0"/>
 <param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
-<param name="PrefDir.1" value="-"/>
+<param name="PrefDir.1" value="a"/>
 <param name="PrefDir.2" value="0"/>
 <param name="PrefDir.3" value="0"/>
 <param name="PrefDir.4" value="0"/>
@@ -699,7 +699,7 @@ design rules under a new name.</description>
 <param name="PrefDir.13" value="0"/>
 <param name="PrefDir.14" value="0"/>
 <param name="PrefDir.15" value="0"/>
-<param name="PrefDir.16" value="|"/>
+<param name="PrefDir.16" value="a"/>
 <param name="cfVia" value="8"/>
 <param name="cfNonPref" value="5"/>
 <param name="cfChangeDir" value="2"/>
@@ -934,9 +934,9 @@ design rules under a new name.</description>
 <contactref element="R1" pad="1"/>
 <contactref element="ESDV_R" pad="7"/>
 <contactref element="WR02_R" pad="7"/>
+<wire x1="7.07" y1="52.46" x2="31.616359375" y2="45.272078125" width="0" layer="19" extent="1-1"/>
 <wire x1="31.65" y1="24.48" x2="31.616359375" y2="45.272078125" width="0" layer="19" extent="1-1"/>
 <wire x1="29.11" y1="24.46" x2="31.65" y2="24.48" width="0" layer="19" extent="1-1"/>
-<wire x1="7.07" y1="52.46" x2="31.616359375" y2="45.272078125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$13">
 <contactref element="LED9" pad="K"/>
@@ -974,8 +974,8 @@ design rules under a new name.</description>
 <contactref element="U2" pad="1"/>
 <contactref element="ESDV_R" pad="5"/>
 <contactref element="WR02_R" pad="5"/>
-<wire x1="29.11" y1="29.54" x2="12.15" y2="52.46" width="0" layer="19" extent="1-1"/>
-<wire x1="31.65" y1="29.56" x2="29.11" y2="29.54" width="0" layer="19" extent="1-1"/>
+<wire x1="29.11" y1="29.54" x2="31.65" y2="29.56" width="0" layer="19" extent="1-1"/>
+<wire x1="12.15" y1="52.46" x2="29.11" y2="29.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$20">
 <contactref element="ESDV_R" pad="10"/>
@@ -1009,8 +1009,8 @@ design rules under a new name.</description>
 <contactref element="ESDV_L" pad="5"/>
 <contactref element="WR02_L" pad="5"/>
 <contactref element="U2" pad="5"/>
-<wire x1="3.71" y1="29.53" x2="4.53" y2="44.84" width="0" layer="19" extent="1-1"/>
-<wire x1="6.25" y1="29.56" x2="3.71" y2="29.53" width="0" layer="19" extent="1-1"/>
+<wire x1="6.25" y1="29.56" x2="4.53" y2="44.84" width="0" layer="19" extent="1-1"/>
+<wire x1="3.71" y1="29.53" x2="6.25" y2="29.56" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$18">
 <contactref element="ESDV_L" pad="7"/>
