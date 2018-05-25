@@ -6314,7 +6314,7 @@ VBUS, D-, D+, GND</description>
 <junction x="241.3" y="73.66"/>
 </segment>
 </net>
-<net name="+5V" class="1">
+<net name="+5V" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="VCC"/>
 <wire x1="86.36" y1="81.28" x2="91.44" y2="81.28" width="0.1524" layer="91"/>
