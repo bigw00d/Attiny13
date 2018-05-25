@@ -5858,261 +5858,129 @@ diameter 3 mm, horizontal, grid 12.7 mm</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Connectors">
-<description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
-This library contains electrically-functional connectors. 
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<library name="MyParts">
 <packages>
-<package name="USB-A-H">
-<description>&lt;h3&gt;USB Type 'A' Male Connector - PTH&lt;/h3&gt;
-Shield pins may be grounded.
-&lt;br&gt; tDocu shows plug end. 
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:6&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=”http://www.4uconnector.com/online/object/4udrawing/10016.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;USB_A&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="-17.8" y1="6" x2="-17.8" y2="-6" width="0.2032" layer="51"/>
-<wire x1="-3" y1="6" x2="-3" y2="-6" width="0.2032" layer="21"/>
-<wire x1="-3" y1="6" x2="-17.8" y2="6" width="0.2032" layer="51"/>
-<wire x1="-3" y1="-6" x2="-17.8" y2="-6" width="0.2032" layer="51"/>
-<wire x1="-3" y1="6" x2="-2" y2="6" width="0.2032" layer="21"/>
-<wire x1="-3" y1="-6" x2="-2" y2="-6" width="0.2032" layer="21"/>
-<wire x1="1" y1="-4" x2="1" y2="4" width="0.2032" layer="21"/>
-<wire x1="-13.5" y1="4.3" x2="-13.5" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="-13.5" y1="1.9" x2="-11.2" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="-11.2" y1="1.9" x2="-11.2" y2="4.3" width="0.2032" layer="51"/>
-<wire x1="-11.2" y1="4.3" x2="-13.5" y2="4.3" width="0.2032" layer="51"/>
-<wire x1="-13.5" y1="-1.9" x2="-13.5" y2="-4.3" width="0.2032" layer="51"/>
-<wire x1="-13.5" y1="-4.3" x2="-11.2" y2="-4.3" width="0.2032" layer="51"/>
-<wire x1="-11.2" y1="-4.3" x2="-11.2" y2="-1.9" width="0.2032" layer="51"/>
-<wire x1="-11.2" y1="-1.9" x2="-13.5" y2="-1.9" width="0.2032" layer="51"/>
-<pad name="GND" x="2.4" y="3.5" drill="0.9144" diameter="1.8796" rot="R270"/>
-<pad name="D+" x="2.4" y="1.127" drill="0.9144" diameter="1.8796" rot="R270"/>
-<pad name="D-" x="2.4" y="-1.127" drill="0.9144" diameter="1.8796" rot="R270"/>
-<pad name="VBUS" x="2.4" y="-3.5" drill="0.9144" diameter="1.8796" rot="R270"/>
-<pad name="SHLD1" x="0" y="-5.8" drill="2.2" rot="R270"/>
-<pad name="SHLD2" x="0" y="5.8" drill="2.2" rot="R270"/>
-<text x="-12.7" y="6.35" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-3.9" y="-4.4" size="1.27" layer="51" rot="R90">PCB Edge</text>
-<hole x="-0.1" y="2.25" drill="1.1"/>
-<hole x="-0.1" y="-2.25" drill="1.1"/>
-<text x="-12.7" y="-6.35" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
+<package name="USB_MY_BREAKOUT">
+<wire x1="-8.91" y1="6" x2="-8.91" y2="-6" width="0.2032" layer="51"/>
+<wire x1="5.89" y1="6" x2="5.89" y2="-6" width="0.2032" layer="21"/>
+<wire x1="5.89" y1="6" x2="-8.91" y2="6" width="0.2032" layer="51"/>
+<wire x1="5.89" y1="-6" x2="-8.91" y2="-6" width="0.2032" layer="51"/>
+<wire x1="5.89" y1="6" x2="6.89" y2="6" width="0.2032" layer="21"/>
+<wire x1="5.89" y1="-6" x2="6.89" y2="-6" width="0.2032" layer="21"/>
+<wire x1="-4.61" y1="4.3" x2="-4.61" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="-4.61" y1="1.9" x2="-2.31" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="-2.31" y1="1.9" x2="-2.31" y2="4.3" width="0.2032" layer="51"/>
+<wire x1="-2.31" y1="4.3" x2="-4.61" y2="4.3" width="0.2032" layer="51"/>
+<wire x1="-4.61" y1="-1.9" x2="-4.61" y2="-4.3" width="0.2032" layer="51"/>
+<wire x1="-4.61" y1="-4.3" x2="-2.31" y2="-4.3" width="0.2032" layer="51"/>
+<wire x1="-2.31" y1="-4.3" x2="-2.31" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="-2.31" y1="-1.9" x2="-4.61" y2="-1.9" width="0.2032" layer="51"/>
+<pad name="GND" x="11.29" y="3.5" drill="0.9144" diameter="1.8796" rot="R270"/>
+<pad name="D+" x="11.29" y="1.127" drill="0.9144" diameter="1.8796" rot="R270"/>
+<pad name="D-" x="11.29" y="-1.127" drill="0.9144" diameter="1.8796" rot="R270"/>
+<pad name="VBUS" x="11.29" y="-3.5" drill="0.9144" diameter="1.8796" rot="R270"/>
+<text x="-3.81" y="6.35" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="4.99" y="-4.4" size="1.27" layer="51" rot="R90">PCB Edge</text>
+<text x="-3.81" y="-6.35" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
 </package>
-<package name="USB-A-S-NOSILK-FEMALE">
-<description>&lt;h3&gt;USB Type 'A' Female Connector - SMT No Silk&lt;/h3&gt;
-Shield pins may be grounded.
-&lt;br&gt; tDocu shows plug end. 
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:6&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=” https://www.sparkfun.com/datasheets/Prototyping/Connectors/USBFemaleTypeA.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;USB_A&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="6.2357" y1="6.5659" x2="-7.747" y2="6.5659" width="0.127" layer="51"/>
-<wire x1="6.2357" y1="-6.5659" x2="-7.747" y2="-6.5659" width="0.127" layer="51"/>
-<wire x1="-7.747" y1="6.477" x2="-7.747" y2="-6.477" width="0.127" layer="51"/>
-<wire x1="6.2484" y1="6.5024" x2="6.2484" y2="-6.5024" width="0.127" layer="51"/>
-<wire x1="0" y1="-5.08" x2="-6.35" y2="-4.445" width="0.127" layer="51"/>
-<wire x1="-6.35" y1="-4.445" x2="-6.35" y2="-1.27" width="0.127" layer="51"/>
-<wire x1="-6.35" y1="-1.27" x2="0" y2="-0.635" width="0.127" layer="51"/>
-<wire x1="0" y1="5.08" x2="-6.35" y2="4.445" width="0.127" layer="51"/>
-<wire x1="-6.35" y1="4.445" x2="-6.35" y2="1.27" width="0.127" layer="51"/>
-<wire x1="-6.35" y1="1.27" x2="0" y2="0.635" width="0.127" layer="51"/>
-<pad name="SHLD1" x="2.54" y="-6.5659" drill="2.3114" rot="R270"/>
-<pad name="SHLD2" x="2.54" y="6.5659" drill="2.3114" rot="R270"/>
-<smd name="D-" x="6.752" y="1" dx="3" dy="0.9" layer="1"/>
-<smd name="VBUS" x="6.752" y="3.5" dx="3" dy="0.9" layer="1"/>
-<smd name="D+" x="6.752" y="-1" dx="3" dy="0.9" layer="1"/>
-<smd name="GND" x="6.752" y="-3.5" dx="3" dy="0.9" layer="1"/>
-<text x="-6.35" y="6.858" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-6.35" y="-6.858" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
-</package>
-<package name="USB-A-SMT-MALE">
-<description>&lt;h3&gt;USB Type 'A' Male Connector - SMT&lt;/h3&gt;
-Shield pins may be grounded.
-&lt;br&gt; tDocu shows plug end. 
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:6&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=” http://www.molex.com/pdm_docs/sd/480371000_sd.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;USB_A&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="-9.5" y1="6" x2="-9.5" y2="-6" width="0.2032" layer="51"/>
-<wire x1="5.08" y1="6" x2="5.08" y2="-6" width="0.2032" layer="21"/>
-<wire x1="5.08" y1="6" x2="-9.5" y2="6" width="0.2032" layer="51"/>
-<wire x1="5.08" y1="-6" x2="-9.5" y2="-6" width="0.2032" layer="51"/>
-<wire x1="5.08" y1="6" x2="6.3" y2="6" width="0.2032" layer="21"/>
-<wire x1="5.08" y1="-6" x2="6.3" y2="-6" width="0.2032" layer="21"/>
-<wire x1="9.3" y1="-4" x2="9.3" y2="4" width="0.2032" layer="21"/>
-<wire x1="-5.2" y1="4.3" x2="-5.2" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="-5.2" y1="1.9" x2="-2.9" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="-2.9" y1="1.9" x2="-2.9" y2="4.3" width="0.2032" layer="51"/>
-<wire x1="-2.9" y1="4.3" x2="-5.2" y2="4.3" width="0.2032" layer="51"/>
-<wire x1="-5.2" y1="-1.9" x2="-5.2" y2="-4.3" width="0.2032" layer="51"/>
-<wire x1="-5.2" y1="-4.3" x2="-2.9" y2="-4.3" width="0.2032" layer="51"/>
-<wire x1="-2.9" y1="-4.3" x2="-2.9" y2="-1.9" width="0.2032" layer="51"/>
-<wire x1="-2.9" y1="-1.9" x2="-5.2" y2="-1.9" width="0.2032" layer="51"/>
-<smd name="D+1" x="10.95" y="1.027" dx="2.5" dy="0.8" layer="1"/>
-<smd name="D-1" x="10.95" y="-1.027" dx="2.5" dy="0.8" layer="1"/>
-<smd name="GND1" x="10.95" y="3.5508" dx="2.5" dy="0.8" layer="1"/>
-<pad name="SHLD2" x="8.13" y="5.85" drill="0.8" diameter="1.778" shape="long" rot="R180"/>
-<pad name="SHLD1" x="8.13" y="-5.85" drill="0.8" diameter="1.778" shape="long" rot="R180"/>
-<smd name="VBUS1" x="10.95" y="-3.5" dx="2.5" dy="0.8" layer="1"/>
-<text x="-2.7" y="6.17" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="4.4" y="-4.4" size="1.27" layer="51" rot="R90">PCB Edge</text>
-<hole x="8.2" y="2.25" drill="1.1"/>
-<hole x="8.2" y="-2.25" drill="1.1"/>
-<hole x="8.53" y="-5.85" drill="0.8"/>
-<hole x="8.93" y="-5.85" drill="0.8"/>
-<hole x="7.73" y="-5.85" drill="0.8"/>
-<hole x="7.33" y="-5.85" drill="0.8"/>
-<hole x="8.53" y="5.85" drill="0.8"/>
-<hole x="8.93" y="5.85" drill="0.8"/>
-<hole x="7.73" y="5.85" drill="0.8"/>
-<hole x="7.33" y="5.85" drill="0.8"/>
-<text x="-2.7" y="-6.53" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUES</text>
-</package>
-<package name="USB-A-S-SILK-FEMALE">
-<description>&lt;h3&gt;USB Type 'A' Female Connector - SMT Silk Outline&lt;/h3&gt;
-Shield pins may be grounded.
-&lt;br&gt; tDocu shows plug end. 
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:6&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=” https://www.sparkfun.com/datasheets/Prototyping/Connectors/USBFemaleTypeA.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;USB_A&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="6.6957" y1="6.5659" x2="-7.287" y2="6.5659" width="0.127" layer="51"/>
-<wire x1="6.6957" y1="-6.5659" x2="-7.287" y2="-6.5659" width="0.127" layer="51"/>
-<wire x1="-7.287" y1="6.477" x2="-7.287" y2="-6.477" width="0.127" layer="51"/>
-<wire x1="6.7084" y1="6.5024" x2="6.7084" y2="-6.5024" width="0.127" layer="51"/>
-<wire x1="0.46" y1="-5.08" x2="-5.89" y2="-4.445" width="0.127" layer="51"/>
-<wire x1="-5.89" y1="-4.445" x2="-5.89" y2="-1.27" width="0.127" layer="51"/>
-<wire x1="-5.89" y1="-1.27" x2="0.46" y2="-0.635" width="0.127" layer="51"/>
-<wire x1="0.46" y1="5.08" x2="-5.89" y2="4.445" width="0.127" layer="51"/>
-<wire x1="-5.89" y1="4.445" x2="-5.89" y2="1.27" width="0.127" layer="51"/>
-<wire x1="-5.89" y1="1.27" x2="0.46" y2="0.635" width="0.127" layer="51"/>
-<wire x1="-7.366" y1="6.604" x2="0.508" y2="6.604" width="0.2032" layer="21"/>
-<wire x1="-7.366" y1="6.604" x2="-7.366" y2="-6.604" width="0.2032" layer="21"/>
-<wire x1="-7.366" y1="-6.604" x2="0.508" y2="-6.604" width="0.2032" layer="21"/>
-<wire x1="5.08" y1="-6.604" x2="6.858" y2="-6.604" width="0.2032" layer="21"/>
-<wire x1="6.858" y1="-6.604" x2="6.858" y2="-4.318" width="0.2032" layer="21"/>
-<wire x1="6.858" y1="4.318" x2="6.858" y2="6.604" width="0.2032" layer="21"/>
-<wire x1="6.858" y1="6.604" x2="5.08" y2="6.604" width="0.2032" layer="21"/>
-<pad name="SHLD1" x="3" y="-6.5659" drill="2.3114" rot="R270"/>
-<pad name="SHLD2" x="3" y="6.5659" drill="2.3114" rot="R270"/>
-<smd name="D-" x="7.212" y="1" dx="3" dy="0.9" layer="1"/>
-<smd name="VBUS" x="7.212" y="3.5" dx="3" dy="0.9" layer="1"/>
-<smd name="D+" x="7.212" y="-1" dx="3" dy="0.9" layer="1"/>
-<smd name="GND" x="7.212" y="-3.5" dx="3" dy="0.9" layer="1"/>
-<text x="-6.35" y="6.858" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-6.35" y="-6.858" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
+<package name="USBA_RAW">
+<description>&lt;b&gt;USB A Connector&lt;/b&gt;&lt;p&gt;
+VBUS, D-, D+, GND</description>
+<wire x1="6" y1="8.2" x2="6" y2="-6.7" width="0.127" layer="21"/>
+<wire x1="6" y1="-6.7" x2="-6" y2="-6.7" width="0.127" layer="21"/>
+<wire x1="-6" y1="-6.7" x2="-6" y2="8.2" width="0.127" layer="21"/>
+<smd name="VBUS" x="3.5" y="2.15" dx="1" dy="15.7" layer="1"/>
+<smd name="D-" x="1" y="2.65" dx="1" dy="14.7" layer="1"/>
+<smd name="D+" x="-1" y="2.65" dx="1" dy="14.7" layer="1"/>
+<smd name="GND" x="-3.5" y="2.15" dx="1" dy="15.7" layer="1"/>
+<text x="-2.54" y="2.54" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.54" y="0" size="1.27" layer="27" font="vector">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
-<symbol name="USB">
-<description>&lt;h3&gt;USB A/B - with Shield Pins&lt;/h3&gt;
-&lt;p&gt;USB connector for type-A and type-B connectors. Includes shield pins broken out. &lt;/p&gt;</description>
-<wire x1="7.62" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
-<text x="6.858" y="-1.778" size="2.54" layer="94" rot="R90">USB</text>
-<pin name="D+" x="-7.62" y="0" length="short"/>
-<pin name="D-" x="-7.62" y="2.54" length="short"/>
-<pin name="VBUS" x="-7.62" y="5.08" length="short" direction="pwr"/>
-<pin name="GND" x="-7.62" y="-2.54" length="short" direction="pwr"/>
-<pin name="SHIELD" x="10.16" y="2.54" visible="pad" length="short" rot="R180"/>
-<text x="-5.08" y="7.874" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-5.08" y="-5.334" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
-<wire x1="7.62" y1="7.62" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<symbol name="USB_MY_BREAKOUT">
+<wire x1="5.08" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<text x="4.318" y="-4.318" size="2.54" layer="94" rot="R90">USB</text>
+<pin name="D+" x="-10.16" y="-2.54" length="short"/>
+<pin name="D-" x="-10.16" y="0" length="short"/>
+<pin name="VBUS" x="-10.16" y="2.54" length="short" direction="pwr"/>
+<pin name="GND" x="-10.16" y="-5.08" length="short" direction="pwr"/>
+<text x="-7.62" y="5.334" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="-7.874" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+</symbol>
+<symbol name="USBA_RAW">
+<wire x1="-10.2" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-1.32" y1="-0.94" x2="-3.47" y2="-0.94" width="0.254" layer="94"/>
+<wire x1="-3.47" y1="-0.94" x2="-4.22" y2="-0.94" width="0.254" layer="94"/>
+<wire x1="-5.52" y1="0.66" x2="-4.52" y2="0.66" width="0.254" layer="94"/>
+<wire x1="-6.27" y1="-2.39" x2="-5.07" y2="-2.39" width="0.254" layer="94"/>
+<wire x1="-5.07" y1="-2.39" x2="-4.22" y2="-0.94" width="0.254" layer="94"/>
+<wire x1="-4.52" y1="0.66" x2="-3.47" y2="-0.94" width="0.254" layer="94"/>
+<wire x1="-4.22" y1="-0.94" x2="-7.92" y2="-0.94" width="0.254" layer="94"/>
+<wire x1="-7.92" y1="-0.94" x2="-7.92" y2="-1.74" width="0.254" layer="94"/>
+<wire x1="-7.92" y1="-1.74" x2="-8.12" y2="-1.74" width="0.254" layer="94"/>
+<wire x1="-8.12" y1="-1.74" x2="-8.92" y2="-0.94" width="0.254" layer="94"/>
+<wire x1="-8.92" y1="-0.94" x2="-8.12" y2="-0.14" width="0.254" layer="94"/>
+<wire x1="-8.12" y1="-1.54" x2="-8.12" y2="-0.14" width="0.254" layer="94"/>
+<wire x1="-8.12" y1="-0.14" x2="-7.92" y2="-0.14" width="0.254" layer="94"/>
+<wire x1="-7.92" y1="-0.14" x2="-7.92" y2="-0.94" width="0.254" layer="94"/>
+<wire x1="-8.52" y1="-0.94" x2="-8.52" y2="-1.14" width="0.254" layer="94"/>
+<wire x1="-8.52" y1="-1.14" x2="-8.32" y2="-1.34" width="0.254" layer="94"/>
+<wire x1="-8.32" y1="-1.34" x2="-8.32" y2="-0.54" width="0.254" layer="94"/>
+<wire x1="-8.32" y1="-0.54" x2="-8.72" y2="-0.94" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<circle x="-1.32" y="-0.94" radius="0.5" width="1" layer="94"/>
+<circle x="-5.92" y="0.66" radius="0.2" width="1" layer="94"/>
+<text x="-10.16" y="6.096" size="1.27" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-10.16" size="1.27" layer="96">&gt;VALUE</text>
+<rectangle x1="-7.12" y1="-2.99" x2="-5.92" y2="-1.79" layer="94"/>
+<pin name="D+" x="10.16" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="D-" x="10.16" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="VBUS" x="10.16" y="2.54" visible="pin" length="short" direction="pwr" rot="R180"/>
+<pin name="GND" x="10.16" y="-5.08" visible="pin" length="short" direction="pwr" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="USB_A" prefix="J">
-<description>&lt;h3&gt;USB-A Connector&lt;/h3&gt;
-&lt;p&gt;Male and female variants, as well as PTH and SMT variants&lt;/p&gt;
-&lt;p&gt;SparkFun Products:
-&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/11697”&gt;SparkFun XBee Explorer Dongle&lt;/a&gt; PTH Male&lt;/li&gt;
-&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/12924”&gt;SparkFun MicroView-USB Programmer&lt;/a&gt; SMT Male&lt;/li&gt;
-&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/12700”&gt;SparkFun USB Type A Female Breakout&lt;/a&gt; SMT Female&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
+<deviceset name="USB_MY_BREAKOUT">
+<description>&gt;Original pin holes for USB breakout board</description>
 <gates>
-<gate name="G$1" symbol="USB" x="2.54" y="0"/>
+<gate name="G$1" symbol="USB_MY_BREAKOUT" x="2.54" y="2.54"/>
 </gates>
 <devices>
-<device name="_PTH_MALE" package="USB-A-H">
+<device name="" package="USB_MY_BREAKOUT">
 <connects>
 <connect gate="G$1" pin="D+" pad="D+"/>
 <connect gate="G$1" pin="D-" pad="D-"/>
 <connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="SHIELD" pad="SHLD1 SHLD2"/>
 <connect gate="G$1" pin="VBUS" pad="VBUS"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CONN-08367" constant="no"/>
-<attribute name="SF_ID" value="PRT-00437" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
-<device name="_SMT_FEMALE_NS" package="USB-A-S-NOSILK-FEMALE">
+</devices>
+</deviceset>
+<deviceset name="USBA_RAW" prefix="USB">
+<description>&lt;b&gt;USB TYPEA RAW CONNECTOR&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="USBA_RAW" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="USBA_RAW">
 <connects>
 <connect gate="G$1" pin="D+" pad="D+"/>
 <connect gate="G$1" pin="D-" pad="D-"/>
 <connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="SHIELD" pad="SHLD1 SHLD2"/>
 <connect gate="G$1" pin="VBUS" pad="VBUS"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CONN-09520" constant="no"/>
-<attribute name="SF_ID" value="PRT-09011" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_SMT_MALE" package="USB-A-SMT-MALE">
-<connects>
-<connect gate="G$1" pin="D+" pad="D+1"/>
-<connect gate="G$1" pin="D-" pad="D-1"/>
-<connect gate="G$1" pin="GND" pad="GND1"/>
-<connect gate="G$1" pin="SHIELD" pad="SHLD1 SHLD2"/>
-<connect gate="G$1" pin="VBUS" pad="VBUS1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CONN-11499" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_SMT_FEMALE" package="USB-A-S-SILK-FEMALE">
-<connects>
-<connect gate="G$1" pin="D+" pad="D+"/>
-<connect gate="G$1" pin="D-" pad="D-"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="SHIELD" pad="SHLD1 SHLD2"/>
-<connect gate="G$1" pin="VBUS" pad="VBUS"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CONN-09520" constant="no"/>
-<attribute name="SF_ID" value="PRT-09011" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -6125,7 +5993,11 @@ Shield pins may be grounded.
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.6096" drill="0">
+<clearance class="0" value="0.508"/>
+</class>
+<class number="1" name="Power" width="0.9144" drill="0">
+<clearance class="1" value="0.9144"/>
 </class>
 </classes>
 <parts>
@@ -6185,7 +6057,11 @@ Shield pins may be grounded.
 <part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="AGND" device=""/>
 <part name="SUPPLY17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="AGND" device=""/>
 <part name="SUPPLY18" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="AGND" device=""/>
-<part name="J1" library="SparkFun-Connectors" deviceset="USB_A" device="_PTH_MALE"/>
+<part name="R7" library="MyLib" deviceset="R" device="0.125W_3P" value="R_LED16"/>
+<part name="R8" library="MyLib" deviceset="R" device="0.125W_3P" value="R_LED34"/>
+<part name="R9" library="MyLib" deviceset="R" device="0.125W_3P" value="R_LED25"/>
+<part name="U$2" library="MyParts" deviceset="USB_MY_BREAKOUT" device=""/>
+<part name="USB1" library="MyParts" deviceset="USBA_RAW" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6253,12 +6129,16 @@ Shield pins may be grounded.
 <instance part="SUPPLY16" gate="G$1" x="27.94" y="60.96"/>
 <instance part="SUPPLY17" gate="G$1" x="38.1" y="53.34" rot="R270"/>
 <instance part="SUPPLY18" gate="G$1" x="101.6" y="50.8"/>
-<instance part="J1" gate="G$1" x="50.8" y="162.56" rot="R90"/>
+<instance part="R7" gate="G$1" x="149.86" y="96.52" rot="R270"/>
+<instance part="R8" gate="G$1" x="187.96" y="96.52" rot="R270"/>
+<instance part="R9" gate="G$1" x="231.14" y="96.52" rot="R270"/>
+<instance part="U$2" gate="G$1" x="48.26" y="165.1" rot="R90"/>
+<instance part="USB1" gate="G$1" x="73.66" y="162.56" rot="R270"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="137.16" x2="132.08" y2="129.54" width="0.1524" layer="91"/>
@@ -6313,7 +6193,7 @@ Shield pins may be grounded.
 <junction x="200.66" y="149.86"/>
 </segment>
 </net>
-<net name="VCC" class="0">
+<net name="VCC" class="1">
 <segment>
 <wire x1="124.46" y1="154.94" x2="124.46" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="149.86" x2="124.46" y2="147.32" width="0.1524" layer="91"/>
@@ -6338,28 +6218,16 @@ Shield pins may be grounded.
 <segment>
 <pinref part="VCC4" gate="VCC" pin="VCC"/>
 <wire x1="119.38" y1="104.14" x2="149.86" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
-<wire x1="149.86" y1="104.14" x2="149.86" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="104.14" x2="160.02" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="149.86" y1="104.14" x2="187.96" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="104.14" x2="231.14" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="101.6" x2="149.86" y2="104.14" width="0.1524" layer="91"/>
 <junction x="149.86" y="104.14"/>
-<pinref part="LED6" gate="G$1" pin="A"/>
-<wire x1="160.02" y1="104.14" x2="160.02" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="104.14" x2="187.96" y2="104.14" width="0.1524" layer="91"/>
-<junction x="160.02" y="104.14"/>
-<pinref part="LED4" gate="G$1" pin="A"/>
-<wire x1="187.96" y1="104.14" x2="187.96" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="104.14" x2="198.12" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="187.96" y1="101.6" x2="187.96" y2="104.14" width="0.1524" layer="91"/>
 <junction x="187.96" y="104.14"/>
-<pinref part="LED3" gate="G$1" pin="A"/>
-<wire x1="198.12" y1="104.14" x2="198.12" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="104.14" x2="231.14" y2="104.14" width="0.1524" layer="91"/>
-<junction x="198.12" y="104.14"/>
-<pinref part="LED5" gate="G$1" pin="A"/>
-<wire x1="231.14" y1="104.14" x2="231.14" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="104.14" x2="241.3" y2="104.14" width="0.1524" layer="91"/>
-<junction x="231.14" y="104.14"/>
-<pinref part="LED2" gate="G$1" pin="A"/>
-<wire x1="241.3" y1="104.14" x2="241.3" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="231.14" y1="101.6" x2="231.14" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -6446,7 +6314,7 @@ Shield pins may be grounded.
 <junction x="241.3" y="73.66"/>
 </segment>
 </net>
-<net name="+5V" class="0">
+<net name="+5V" class="1">
 <segment>
 <pinref part="U2" gate="G$1" pin="VCC"/>
 <wire x1="86.36" y1="81.28" x2="91.44" y2="81.28" width="0.1524" layer="91"/>
@@ -6485,16 +6353,17 @@ Shield pins may be grounded.
 <wire x1="10.16" y1="114.3" x2="10.16" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="N$1" class="1">
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="33.02" y1="137.16" x2="45.72" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="137.16" x2="45.72" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="VBUS"/>
 <wire x1="45.72" y1="154.94" x2="45.72" y2="165.1" width="0.1524" layer="91"/>
-<junction x="45.72" y="154.94"/>
 <wire x1="45.72" y1="165.1" x2="76.2" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="165.1" x2="76.2" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="VBUS"/>
+<junction x="45.72" y="154.94"/>
+<pinref part="USB1" gate="G$1" pin="VBUS"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -6511,12 +6380,13 @@ Shield pins may be grounded.
 <junction x="50.8" y="124.46"/>
 <wire x1="50.8" y1="129.54" x2="50.8" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="142.24" x2="48.26" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="D-"/>
 <wire x1="48.26" y1="142.24" x2="48.26" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="154.94" x2="48.26" y2="162.56" width="0.1524" layer="91"/>
-<junction x="48.26" y="154.94"/>
 <wire x1="48.26" y1="162.56" x2="71.12" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="162.56" x2="71.12" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="D-"/>
+<junction x="48.26" y="154.94"/>
+<pinref part="USB1" gate="G$1" pin="D-"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -6569,13 +6439,14 @@ Shield pins may be grounded.
 <wire x1="53.34" y1="116.84" x2="45.72" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="53.34" y1="137.16" x2="53.34" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="D+"/>
 <wire x1="53.34" y1="147.32" x2="50.8" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="147.32" x2="50.8" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="154.94" x2="50.8" y2="160.02" width="0.1524" layer="91"/>
-<junction x="50.8" y="154.94"/>
 <wire x1="50.8" y1="160.02" x2="73.66" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="160.02" x2="73.66" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="D+"/>
+<junction x="50.8" y="154.94"/>
+<pinref part="USB1" gate="G$1" pin="D+"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -6747,7 +6618,7 @@ Shield pins may be grounded.
 <pinref part="LED8" gate="G$1" pin="C"/>
 </segment>
 </net>
-<net name="AGND" class="0">
+<net name="AGND" class="1">
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="96.52" y1="134.62" x2="91.44" y2="134.62" width="0.1524" layer="91"/>
@@ -6777,12 +6648,13 @@ Shield pins may be grounded.
 <wire x1="68.58" y1="144.78" x2="55.88" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="144.78" x2="55.88" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="149.86" x2="53.34" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="GND"/>
 <wire x1="53.34" y1="149.86" x2="53.34" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="154.94" x2="63.5" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="154.94" x2="63.5" y2="152.4" width="0.1524" layer="91"/>
-<junction x="53.34" y="154.94"/>
 <wire x1="63.5" y1="152.4" x2="68.58" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="GND"/>
+<junction x="53.34" y="154.94"/>
+<pinref part="USB1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="40.64" y1="53.34" x2="50.8" y2="53.34" width="0.1524" layer="91"/>
@@ -6815,6 +6687,39 @@ Shield pins may be grounded.
 <pinref part="U2" gate="G$1" pin="GND"/>
 <wire x1="86.36" y1="96.52" x2="91.44" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="SUPPLY14" gate="G$1" pin="AGND"/>
+</segment>
+</net>
+<net name="N$30" class="0">
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
+<wire x1="149.86" y1="91.44" x2="149.86" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="91.44" x2="160.02" y2="91.44" width="0.1524" layer="91"/>
+<junction x="149.86" y="91.44"/>
+<pinref part="LED6" gate="G$1" pin="A"/>
+<wire x1="160.02" y1="91.44" x2="160.02" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$31" class="0">
+<segment>
+<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="LED4" gate="G$1" pin="A"/>
+<wire x1="187.96" y1="91.44" x2="187.96" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="91.44" x2="198.12" y2="91.44" width="0.1524" layer="91"/>
+<junction x="187.96" y="91.44"/>
+<pinref part="LED3" gate="G$1" pin="A"/>
+<wire x1="198.12" y1="91.44" x2="198.12" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$32" class="0">
+<segment>
+<pinref part="LED5" gate="G$1" pin="A"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="231.14" y1="88.9" x2="231.14" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="91.44" x2="241.3" y2="91.44" width="0.1524" layer="91"/>
+<junction x="231.14" y="91.44"/>
+<pinref part="LED2" gate="G$1" pin="A"/>
+<wire x1="241.3" y1="91.44" x2="241.3" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
