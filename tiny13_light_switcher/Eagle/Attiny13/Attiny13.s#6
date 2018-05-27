@@ -5980,7 +5980,7 @@ VBUS, D-, D+, GND</description>
 <part name="U$1" library="frames" deviceset="A4L_FRAME" device=""/>
 <part name="GND1" library="pwr" deviceset="GND" device=""/>
 <part name="VCC1" library="pwr" deviceset="VCC" device=""/>
-<part name="C5" library="MyLib" deviceset="CAP" device="DIP_1" value="0.1uF"/>
+<part name="C5" library="MyLib" deviceset="CAP" device="DIP_2" value="0.1uF"/>
 <part name="R4" library="MyLib" deviceset="R" device="0.125W_3P" value="68R"/>
 <part name="R3" library="MyLib" deviceset="R" device="0.125W_3P" value="1K5"/>
 <part name="R2" library="MyLib" deviceset="R" device="0.125W_3P" value="4K7"/>

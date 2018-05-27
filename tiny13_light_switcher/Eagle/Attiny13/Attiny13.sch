@@ -6035,9 +6035,9 @@ VBUS, D-, D+, GND</description>
 <part name="LED5" library="led" deviceset="LED" device="3MM" value="RED"/>
 <part name="LED2" library="led" deviceset="LED" device="3MM" value="RED"/>
 <part name="U2" library="atmel" deviceset="TINY13*" device="8P3" value="ATTiny85"/>
-<part name="D1" library="adafruit" deviceset="SCHOTTKY-DIODE" device="DO41" value="ＳＢＭ１０４５ＶＳＳ"/>
-<part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="DO34-7" value="ＧＤＺＪ３．６Ｂ"/>
-<part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="DO34-7" value="ＧＤＺＪ３．６Ｂ"/>
+<part name="D1" library="adafruit" deviceset="SCHOTTKY-DIODE" device="DO41" value="SBM1045VSS"/>
+<part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="DO34-7" value="GDZJ3.6B"/>
+<part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="DO34-7" value="GDZJ3.6B"/>
 <part name="R1" library="MyLib" deviceset="R" device="0.125W_3P" value="68R"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="LED8" library="adafruit" deviceset="LED" device="SFH480" value="PRG_LED"/>
