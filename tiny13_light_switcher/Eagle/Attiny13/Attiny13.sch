@@ -5842,10 +5842,10 @@ VBUS, D-, D+, GND</description>
 <wire x1="6" y1="8.2" x2="6" y2="-6.7" width="0.127" layer="21"/>
 <wire x1="6" y1="-6.7" x2="-6" y2="-6.7" width="0.127" layer="21"/>
 <wire x1="-6" y1="-6.7" x2="-6" y2="8.2" width="0.127" layer="21"/>
-<smd name="VBUS" x="3.5" y="2.15" dx="1" dy="15.7" layer="1"/>
-<smd name="D-" x="1" y="2.65" dx="1" dy="14.7" layer="1"/>
-<smd name="D+" x="-1" y="2.65" dx="1" dy="14.7" layer="1"/>
-<smd name="GND" x="-3.5" y="2.15" dx="1" dy="15.7" layer="1"/>
+<smd name="VBUS" x="3.5" y="-1.66" dx="1" dy="8.08" layer="1"/>
+<smd name="D-" x="1" y="-1.15" dx="1" dy="7.1" layer="1"/>
+<smd name="D+" x="-1" y="-1.15" dx="1" dy="7.1" layer="1"/>
+<smd name="GND" x="-3.5" y="-1.66" dx="1" dy="8.08" layer="1"/>
 <text x="-2.54" y="2.54" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="-2.54" y="0" size="1.27" layer="27" font="vector">&gt;VALUE</text>
 </package>

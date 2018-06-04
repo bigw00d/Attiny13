@@ -5836,6 +5836,19 @@ diameter 3 mm, horizontal, grid 12.7 mm</description>
 </library>
 <library name="MyParts">
 <packages>
+<package name="USBA_RAW">
+<description>&lt;b&gt;USB A Connector&lt;/b&gt;&lt;p&gt;
+VBUS, D-, D+, GND</description>
+<wire x1="6" y1="8.2" x2="6" y2="-6.7" width="0.127" layer="21"/>
+<wire x1="6" y1="-6.7" x2="-6" y2="-6.7" width="0.127" layer="21"/>
+<wire x1="-6" y1="-6.7" x2="-6" y2="8.2" width="0.127" layer="21"/>
+<smd name="VBUS" x="3.5" y="2.15" dx="1" dy="15.7" layer="1"/>
+<smd name="D-" x="1" y="2.65" dx="1" dy="14.7" layer="1"/>
+<smd name="D+" x="-1" y="2.65" dx="1" dy="14.7" layer="1"/>
+<smd name="GND" x="-3.5" y="2.15" dx="1" dy="15.7" layer="1"/>
+<text x="-2.54" y="2.54" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.54" y="0" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
 <package name="USB_MY_BREAKOUT">
 <wire x1="-8.91" y1="6" x2="-8.91" y2="-6" width="0.2032" layer="51"/>
 <wire x1="5.89" y1="6" x2="5.89" y2="-6" width="0.2032" layer="21"/>
@@ -5859,34 +5872,31 @@ diameter 3 mm, horizontal, grid 12.7 mm</description>
 <text x="4.99" y="-4.4" size="1.27" layer="51" rot="R90">PCB Edge</text>
 <text x="-3.81" y="-6.35" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
 </package>
-<package name="USBA_RAW">
-<description>&lt;b&gt;USB A Connector&lt;/b&gt;&lt;p&gt;
-VBUS, D-, D+, GND</description>
-<wire x1="6" y1="8.2" x2="6" y2="-6.7" width="0.127" layer="21"/>
-<wire x1="6" y1="-6.7" x2="-6" y2="-6.7" width="0.127" layer="21"/>
-<wire x1="-6" y1="-6.7" x2="-6" y2="8.2" width="0.127" layer="21"/>
-<smd name="VBUS" x="3.5" y="2.15" dx="1" dy="15.7" layer="1"/>
-<smd name="D-" x="1" y="2.65" dx="1" dy="14.7" layer="1"/>
-<smd name="D+" x="-1" y="2.65" dx="1" dy="14.7" layer="1"/>
-<smd name="GND" x="-3.5" y="2.15" dx="1" dy="15.7" layer="1"/>
-<text x="-2.54" y="2.54" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="-2.54" y="0" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<package name="USB_MY_BREAKOUT2">
+<wire x1="-8.91" y1="6" x2="-8.91" y2="-6" width="0.2032" layer="51"/>
+<wire x1="5.89" y1="6" x2="5.89" y2="-6" width="0.2032" layer="21"/>
+<wire x1="5.89" y1="6" x2="-8.91" y2="6" width="0.2032" layer="51"/>
+<wire x1="5.89" y1="-6" x2="-8.91" y2="-6" width="0.2032" layer="51"/>
+<wire x1="5.89" y1="6" x2="6.89" y2="6" width="0.2032" layer="21"/>
+<wire x1="5.89" y1="-6" x2="6.89" y2="-6" width="0.2032" layer="21"/>
+<wire x1="-4.61" y1="4.3" x2="-4.61" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="-4.61" y1="1.9" x2="-2.31" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="-2.31" y1="1.9" x2="-2.31" y2="4.3" width="0.2032" layer="51"/>
+<wire x1="-2.31" y1="4.3" x2="-4.61" y2="4.3" width="0.2032" layer="51"/>
+<wire x1="-4.61" y1="-1.9" x2="-4.61" y2="-4.3" width="0.2032" layer="51"/>
+<wire x1="-4.61" y1="-4.3" x2="-2.31" y2="-4.3" width="0.2032" layer="51"/>
+<wire x1="-2.31" y1="-4.3" x2="-2.31" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="-2.31" y1="-1.9" x2="-4.61" y2="-1.9" width="0.2032" layer="51"/>
+<pad name="GND" x="11.29" y="3.5" drill="0.9144" diameter="1.27" rot="R270"/>
+<pad name="D+" x="11.29" y="1.127" drill="0.9144" diameter="1.27" rot="R270"/>
+<pad name="D-" x="11.29" y="-1.127" drill="0.9144" diameter="1.27" rot="R270"/>
+<pad name="VBUS" x="11.29" y="-3.5" drill="0.9144" diameter="1.27" rot="R270"/>
+<text x="-3.81" y="6.35" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="4.99" y="-4.4" size="1.27" layer="51" rot="R90">PCB Edge</text>
+<text x="-3.81" y="-6.35" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
-<symbol name="USB_MY_BREAKOUT">
-<wire x1="5.08" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<text x="4.318" y="-4.318" size="2.54" layer="94" rot="R90">USB</text>
-<pin name="D+" x="-10.16" y="-2.54" length="short"/>
-<pin name="D-" x="-10.16" y="0" length="short"/>
-<pin name="VBUS" x="-10.16" y="2.54" length="short" direction="pwr"/>
-<pin name="GND" x="-10.16" y="-5.08" length="short" direction="pwr"/>
-<text x="-7.62" y="5.334" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-7.62" y="-7.874" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-</symbol>
 <symbol name="USBA_RAW">
 <wire x1="-10.2" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
@@ -5921,8 +5931,40 @@ VBUS, D-, D+, GND</description>
 <pin name="VBUS" x="10.16" y="2.54" visible="pin" length="short" direction="pwr" rot="R180"/>
 <pin name="GND" x="10.16" y="-5.08" visible="pin" length="short" direction="pwr" rot="R180"/>
 </symbol>
+<symbol name="USB_MY_BREAKOUT">
+<wire x1="5.08" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<text x="4.318" y="-4.318" size="2.54" layer="94" rot="R90">USB</text>
+<pin name="D+" x="-10.16" y="-2.54" length="short"/>
+<pin name="D-" x="-10.16" y="0" length="short"/>
+<pin name="VBUS" x="-10.16" y="2.54" length="short" direction="pwr"/>
+<pin name="GND" x="-10.16" y="-5.08" length="short" direction="pwr"/>
+<text x="-7.62" y="5.334" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="-7.874" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
+<deviceset name="USBA_RAW" prefix="USB">
+<description>&lt;b&gt;USB TYPEA RAW CONNECTOR&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="USBA_RAW" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="USBA_RAW">
+<connects>
+<connect gate="G$1" pin="D+" pad="D+"/>
+<connect gate="G$1" pin="D-" pad="D-"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="USB_MY_BREAKOUT">
 <description>&gt;Original pin holes for USB breakout board</description>
 <gates>
@@ -5940,15 +5982,7 @@ VBUS, D-, D+, GND</description>
 <technology name=""/>
 </technologies>
 </device>
-</devices>
-</deviceset>
-<deviceset name="USBA_RAW" prefix="USB">
-<description>&lt;b&gt;USB TYPEA RAW CONNECTOR&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="USBA_RAW" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="USBA_RAW">
+<device name="PATTERN2" package="USB_MY_BREAKOUT2">
 <connects>
 <connect gate="G$1" pin="D+" pad="D+"/>
 <connect gate="G$1" pin="D-" pad="D-"/>
@@ -6036,8 +6070,8 @@ VBUS, D-, D+, GND</description>
 <part name="R7" library="MyLib" deviceset="R" device="0.125W_3P" value="R_LED16"/>
 <part name="R8" library="MyLib" deviceset="R" device="0.125W_3P" value="R_LED34"/>
 <part name="R9" library="MyLib" deviceset="R" device="0.125W_3P" value="R_LED25"/>
-<part name="U$2" library="MyParts" deviceset="USB_MY_BREAKOUT" device=""/>
 <part name="USB1" library="MyParts" deviceset="USBA_RAW" device=""/>
+<part name="U$2" library="MyParts" deviceset="USB_MY_BREAKOUT" device="PATTERN2"/>
 </parts>
 <sheets>
 <sheet>
@@ -6108,8 +6142,8 @@ VBUS, D-, D+, GND</description>
 <instance part="R7" gate="G$1" x="149.86" y="96.52" rot="R270"/>
 <instance part="R8" gate="G$1" x="187.96" y="96.52" rot="R270"/>
 <instance part="R9" gate="G$1" x="231.14" y="96.52" rot="R270"/>
-<instance part="U$2" gate="G$1" x="48.26" y="165.1" rot="R90"/>
 <instance part="USB1" gate="G$1" x="73.66" y="162.56" rot="R270"/>
+<instance part="U$2" gate="G$1" x="48.26" y="165.1" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -6337,9 +6371,9 @@ VBUS, D-, D+, GND</description>
 <wire x1="45.72" y1="154.94" x2="45.72" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="165.1" x2="76.2" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="165.1" x2="76.2" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="USB1" gate="G$1" pin="VBUS"/>
 <pinref part="U$2" gate="G$1" pin="VBUS"/>
 <junction x="45.72" y="154.94"/>
-<pinref part="USB1" gate="G$1" pin="VBUS"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -6360,9 +6394,9 @@ VBUS, D-, D+, GND</description>
 <wire x1="48.26" y1="154.94" x2="48.26" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="162.56" x2="71.12" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="162.56" x2="71.12" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="USB1" gate="G$1" pin="D-"/>
 <pinref part="U$2" gate="G$1" pin="D-"/>
 <junction x="48.26" y="154.94"/>
-<pinref part="USB1" gate="G$1" pin="D-"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -6420,9 +6454,9 @@ VBUS, D-, D+, GND</description>
 <wire x1="50.8" y1="154.94" x2="50.8" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="160.02" x2="73.66" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="160.02" x2="73.66" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="USB1" gate="G$1" pin="D+"/>
 <pinref part="U$2" gate="G$1" pin="D+"/>
 <junction x="50.8" y="154.94"/>
-<pinref part="USB1" gate="G$1" pin="D+"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -6628,9 +6662,9 @@ VBUS, D-, D+, GND</description>
 <wire x1="53.34" y1="154.94" x2="63.5" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="154.94" x2="63.5" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="152.4" x2="68.58" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="USB1" gate="G$1" pin="GND"/>
 <pinref part="U$2" gate="G$1" pin="GND"/>
 <junction x="53.34" y="154.94"/>
-<pinref part="USB1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="40.64" y1="53.34" x2="50.8" y2="53.34" width="0.1524" layer="91"/>
@@ -6640,12 +6674,12 @@ VBUS, D-, D+, GND</description>
 </segment>
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="27.94" y1="63.5" x2="12.7" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="63.5" x2="12.7" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="63.5" x2="15.24" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="ESDV_L" gate="G$1" pin="9"/>
-<wire x1="12.7" y1="73.66" x2="20.32" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="SUPPLY16" gate="G$1" pin="AGND"/>
 <junction x="27.94" y="63.5"/>
+<wire x1="15.24" y1="73.66" x2="20.32" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="73.66" x2="15.24" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="ESDV_R" gate="G$1" pin="9"/>
@@ -6704,8 +6738,10 @@ VBUS, D-, D+, GND</description>
 <errors>
 <approved hash="104,1,86.36,81.28,U2,VCC,+5V,,,"/>
 <approved hash="104,1,86.36,96.52,U2,GND,AGND,,,"/>
-<approved hash="104,1,48.26,144.78,J2,VBUS,N$1,,,"/>
-<approved hash="104,1,55.88,144.78,J2,GND,AGND,,,"/>
+<approved hash="104,1,76.2,152.4,USB1,VBUS,N$1,,,"/>
+<approved hash="104,1,68.58,152.4,USB1,GND,AGND,,,"/>
+<approved hash="104,1,45.72,154.94,U$2,VBUS,N$1,,,"/>
+<approved hash="104,1,53.34,154.94,U$2,GND,AGND,,,"/>
 </errors>
 </schematic>
 </drawing>
