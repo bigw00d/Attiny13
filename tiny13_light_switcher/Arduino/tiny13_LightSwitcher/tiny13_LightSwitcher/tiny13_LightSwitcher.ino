@@ -1,6 +1,8 @@
 #include <avr/io.h>
 #include <avr/interrupt.h>
 
+#define USE_3LED
+
 #define INTERRUPTPIN PCINT1 //this is PB1(tiny13a:MISO) per the schematic
 #define PCINT_VECTOR PCINT0_vect  //this step is not necessary
 #define PORTPIN PB1 //Page 64
@@ -21,14 +23,20 @@ static volatile byte LEDState; //variable used within ISR must be declared Volat
 
 void setup( ) {
   pinMode(PIN, OUTPUT);
-  pinMode(LED16_PIN, OUTPUT);
   pinMode(LED25_PIN, OUTPUT);
+  #ifdef USE_3LED
+  pinMode(LED16_PIN, OUTPUT);
   pinMode(LED34_PIN, OUTPUT);
+  #endif // USE_3LED
 
-  digitalWrite(LED16_PIN, LOW);
   digitalWrite(LED25_PIN, HIGH);
+  #ifdef USE_3LED
+  digitalWrite(LED16_PIN, LOW);
   digitalWrite(LED34_PIN, HIGH);
+  #endif // USE_3LED
 
+  // settings for interrupts >
+  #if 0
   cli();//disable interrupts during setup
   PCMSK |= (1 << INTERRUPTPIN); //sbi(PCMSK,INTERRUPTPIN) also works but I think this is more clear // tell pin change mask to listen to pin2 /pb3 //SBI
   GIMSK |= (1 << PCIE);   // enable PCINT interrupt in the general interrupt mask //SBI
@@ -37,27 +45,34 @@ void setup( ) {
   PORTB |= (1<< PORTPIN); //cbi(PORTB, PORTPIN);// disable pull-up. hook up pulldown resistor. - set to zero
   LEDState = 0;
   sei(); //last line of setup - enable interrupts after setup
+  #endif
+  // < settings for interrupts
 
 }
  
 void loop( ) {
-   if (LEDState == 1) {
-     digitalWrite(PIN, HIGH);
-     digitalWrite(LED16_PIN, LOW);
-     digitalWrite(LED25_PIN, HIGH);
-     LEDState = 0;
-     delay(ON_TIME);
-   }
-   else {
-     digitalWrite(PIN, LOW);
-     digitalWrite(LED16_PIN, HIGH);
-     digitalWrite(LED25_PIN, LOW);
-     LEDState = 1;
-     delay(OFF_TIME);
-   }
-   delay(WAIT_DTIME);
+  if (LEDState == 1) {
+    //digitalWrite(PIN, HIGH);
+    digitalWrite(LED25_PIN, HIGH);
+    #ifdef USE_3LED
+    digitalWrite(LED16_PIN, LOW);
+    #endif // USE_3LED
+    LEDState = 0;
+    delay(ON_TIME);
+  }
+  else {
+    //digitalWrite(PIN, LOW);
+    digitalWrite(LED25_PIN, LOW);
+    #ifdef USE_3LED
+    digitalWrite(LED16_PIN, HIGH);
+    #endif // USE_3LED
+    LEDState = 1;
+    delay(OFF_TIME);
+  }
+  delay(WAIT_DTIME);
 }
 
+#if 0
 //this is the interrupt handler
 ISR(PCINT_VECTOR)
 {
@@ -66,3 +81,4 @@ ISR(PCINT_VECTOR)
     LEDState = 1; 
   }
 }
+#endif
